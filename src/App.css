@@ -36,3 +36,136 @@
     transform: rotate(360deg);
   }
 }
+
+.resume_editor {
+  margin: 70px auto;
+  width: 1200px;
+  height: 1696px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+}
+
+.resume_header_side {
+  margin-left: 70px;
+  margin-top: 70px;
+  width: 100%;
+  display: flex;
+
+}
+
+
+
+.resume_image {
+  width: 250px;
+  height: 250px;
+  background: #80808090;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.resume_image > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.resume_right_header {
+  margin-top: 100px;
+  position: absolute;
+  margin-left: 350px;
+}
+
+
+
+button.stylesButton  {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: #80808060;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  z-index: 1;
+  font-size: 20px;
+  color: white;
+}
+
+button.stylesButton:hover {
+  box-shadow: 0 0 10px black ;
+  background: #80808070;
+
+}
+
+button.stylesButton_image {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: #80808060;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.resume_body_side {
+  display: flex;
+  width: 100%;
+  height: fit-content;
+  align-items: flex-start ;
+  margin-left: 70px;
+  margin-top: 70px;
+}
+
+.resume_body_left_side {
+  width: 25%
+}
+
+
+
+.resume_body_right_side {
+  display: flex;
+  position: absolute;
+  margin-left: 350px;
+  flex-direction: column;
+  width: 60%;
+  height: fit-content;
+  justify-content: space-between;
+  align-items: flex-start ;
+
+}
+
+
+
+.resume_location {
+  height: fit-content;
+  width: 100%;
+  margin: 10px auto;
+  border-radius: 5px;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.resume_location_focus {
+  background: rgba(143, 143, 143, 0.30);
+}
+

@@ -1,0 +1,72 @@
+
+/*####################################*/
+
+.resume_input {
+    padding: 5px;
+    width: 100%;
+    margin: 3px 0;
+    font-size: 20px;
+    outline: none;
+    font-weight: 600;
+}
+
+
+.resume_input:empty:before {
+    content: attr(placeholder);
+    opacity: 0.6;
+    font-weight: 400;
+}
+
+.resume_input:focus {
+    background: rgba(143, 143, 143, 0.30);
+    border-radius: 5px;
+}
+
+.resume_input_header {
+    text-transform: uppercase;
+}
+
+.persDetHeader {
+    color: #3682E7;
+    padding: 2px;
+    margin: 0 0 0 2px;
+
+
+}
+
+.resume_input_small {
+    font-size: 15px;
+    margin: 2px 0;
+}
+
+.resume_contact_par {
+    font-size: 15px;
+    margin: 2px 0;
+    border-bottom: 1px solid #252525;
+    width: fit-content;
+}
+
+.persDetPar {
+    font-size: 15px;
+    margin: 0 0 0 2px;
+    padding: 2px;
+    width: 180px;
+}
+
+.name {
+    font-size: 50px;
+}
+
+.h3 {
+    font-size: 25px;
+}
+
+.h4 {
+    font-size: 20px;
+    text-transform: uppercase;
+
+}
+
+
+
+
